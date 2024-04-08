@@ -615,6 +615,11 @@ affirmations = [
         "category": "Friendship"
     },
     {
+    "id": 124,
+    "string": "I am surrounded by friends who genuinely care about my well-being.",
+    "category": "Friendship"
+    },
+    {
         "id": 125,
         "string": "My friendships are a source of strength and comfort during difficult times.",
         "category": "Friendship"
@@ -813,6 +818,611 @@ affirmations = [
         "id": 164,
         "string": "Every friend I have is a unique and cherished companion.",
         "category": "Friendship"
+    },
+    {
+        "id": 165,
+        "string": "I attract friends who share my values and passions.",
+        "category": "Friendship"
+    },
+    {
+        "id": 166,
+        "string": "My friendships are a reflection of my kindness and generosity.",
+        "category": "Friendship"
+    },
+    {
+        "id": 167,
+        "string": "I am blessed with friends who lift me up and inspire me to be my best self.",
+        "category": "Friendship"
+    },
+    {
+        "id": 168,
+        "string": "I nurture my friendships with care and gratitude.",
+        "category": "Friendship"
+    },
+    {
+        "id": 169,
+        "string": "Every friend I have teaches me something valuable about myself and the world.",
+        "category": "Friendship"
+    },
+    {
+        "id": 170,
+        "string": "I am grateful for the laughter and camaraderie shared with my friends.",
+        "category": "Friendship"
+    },
+    {
+        "id": 171,
+        "string": "My friendships are built on a foundation of mutual respect and understanding.",
+        "category": "Friendship"
+    },
+    {
+        "id": 172,
+        "string": "I attract friends who appreciate and celebrate my individuality.",
+        "category": "Friendship"
+    },
+    {
+        "id": 173,
+        "string": "I am surrounded by friends who believe in my dreams and support my goals.",
+        "category": "Friendship"
+    },
+    {
+        "id": 174,
+        "string": "Every friend I have brings a unique perspective that expands my worldview.",
+        "category": "Friendship"
+    },
+    {
+        "id": 175,
+        "string": "I am blessed with friends who accept and love me unconditionally.",
+        "category": "Friendship"
+    },
+    {
+        "id": 176,
+        "string": "I attract genuine and supportive friends into my life.",
+        "category": "Friendship"
+    },
+    {
+        "id": 177,
+        "string": "My friendships are built on trust, respect, and mutual understanding.",
+        "category": "Friendship"
+    },
+    {
+        "id": 178,
+        "string": "I am surrounded by friends who uplift and inspire me.",
+        "category": "Friendship"
+    },
+    {
+        "id": 179,
+        "string": "I am a loyal and dependable friend.",
+        "category": "Friendship"
+    },
+    {
+        "id": 180,
+        "string": "My friendships bring joy and laughter into my life.",
+        "category": "Friendship"
+    },
+    {
+        "id": 181,
+        "string": "I am grateful for the meaningful connections I have with my friends.",
+        "category": "Friendship"
+    },
+    {
+        "id": 182,
+        "string": "I nurture my friendships with kindness and compassion.",
+        "category": "Friendship"
+    },
+    {
+        "id": 183,
+        "string": "I attract positive and like-minded individuals who become lifelong friends.",
+        "category": "Friendship"
+    },
+    {
+        "id": 184,
+        "string": "My friendships are based on honesty and authenticity.",
+        "category": "Friendship"
+    },
+    {
+        "id": 185,
+        "string": "I am open to forming new friendships and expanding my social circle.",
+        "category": "Friendship"
+    },
+    {
+        "id": 186,
+        "string": "I cherish the bond I share with my friends.",
+        "category": "Friendship"
+    },
+    {
+        "id": 187,
+        "string": "I am a good listener and offer support to my friends when they need it.",
+        "category": "Friendship"
+    },
+    {
+        "id": 188,
+        "string": "I am surrounded by friends who accept me for who I am.",
+        "category": "Friendship"
+    },
+    {
+        "id": 189,
+        "string": "My friendships are a source of comfort and strength during challenging times.",
+        "category": "Friendship"
+    },
+    {
+        "id": 190,
+        "string": "I create unforgettable memories with my friends.",
+        "category": "Friendship"
+    },
+    {
+        "id": 191,
+        "string": "I celebrate the uniqueness of each of my friends.",
+        "category": "Friendship"
+    },
+    {
+        "id": 192,
+        "string": "I am a positive influence in my friends' lives.",
+        "category": "Friendship"
+    },
+    {
+        "id": 193,
+        "string": "I am grateful for the laughter and companionship my friends bring into my life.",
+        "category": "Friendship"
+    },
+    {
+        "id": 194,
+        "string": "My friendships are a reflection of the love and kindness I share with others.",
+        "category": "Friendship"
+    },
+    {
+        "id": 195,
+        "string": "I am blessed with deep and meaningful friendships that enrich my life.",
+        "category": "Friendship"
+    },
+    {
+        "id": 196,
+        "string": "I attract friends who uplift and inspire me to be my best self.",
+        "category": "Friendship"
+    },
+    {
+        "id": 197,
+        "string": "My friendships are a constant source of joy and fulfillment in my life.",
+        "category": "Friendship"
+    },
+    {
+        "id": 198,
+        "string": "I am surrounded by friends who value and respect me for who I am.",
+        "category": "Friendship"
+    },
+    {
+        "id": 199,
+        "string": "Every friend I have brings light and positivity into my life.",
+        "category": "Friendship"
+    },
+    {
+        "id": 200,
+        "string": "I am grateful for the deep emotional bonds I share with my friends.",
+        "category": "Friendship"
+    },
+    {
+        "id": 201,
+        "string": "My friendships are based on mutual trust, understanding, and support.",
+        "category": "Friendship"
+    },
+    {
+        "id": 202,
+        "string": "I attract friends who share my interests and passions, fostering meaningful connections.",
+        "category": "Friendship"
+    },
+    {
+        "id": 203,
+        "string": "I am a magnet for positive, uplifting friendships that nourish my soul.",
+        "category": "Friendship"
+    },
+    {
+        "id": 204,
+        "string": "My friends are like family to me, providing love and comfort in times of need.",
+        "category": "Friendship"
+    },
+    {
+        "id": 205,
+        "string": "I am open to forming new friendships and expanding my circle of support and companionship.",
+        "category": "Friendship"
+    },
+    {
+        "id": 206,
+        "string": "My family is my anchor, grounding me in love and support.",
+        "category": "Family"
+    },
+    {
+        "id": 207,
+        "string": "I am surrounded by family members who nurture and cherish me.",
+        "category": "Family"
+    },
+    {
+        "id": 208,
+        "string": "Each member of my family contributes to our collective strength and resilience.",
+        "category": "Family"
+    },
+    {
+        "id": 209,
+        "string": "I am grateful for the deep connections and bonds shared with my family.",
+        "category": "Family"
+    },
+    {
+        "id": 210,
+        "string": "My family provides a safe and nurturing environment for me to grow and thrive.",
+        "category": "Family"
+    },
+    {
+        "id": 211,
+        "string": "I am surrounded by family members who inspire me to be my best self.",
+        "category": "Family"
+    },
+    {
+        "id": 212,
+        "string": "My family celebrates our successes and supports each other through challenges.",
+        "category": "Family"
+    },
+    {
+        "id": 213,
+        "string": "I am grateful for the love and laughter shared with my family.",
+        "category": "Family"
+    },
+    {
+        "id": 214,
+        "string": "My family is my greatest treasure, and I am thankful for them every day.",
+        "category": "Family"
+    },
+    {
+        "id": 215,
+        "string": "I am deeply connected to my family, and our bond grows stronger with each passing day.",
+        "category": "Family"
+    },
+    {
+        "id": 216,
+        "string": "My family's love strengthens me and fills me with gratitude.",
+        "category": "Family"
+    },
+    {
+        "id": 217,
+        "string": "I am surrounded by a family that supports and encourages my growth.",
+        "category": "Family"
+    },
+    {
+        "id": 218,
+        "string": "Every member of my family adds unique value to our collective bond.",
+        "category": "Family"
+    },
+    {
+        "id": 219,
+        "string": "I appreciate the harmony and understanding that flows within my family.",
+        "category": "Family"
+    },
+    {
+        "id": 220,
+        "string": "My family's love is a constant source of inspiration and motivation.",
+        "category": "Family"
+    },
+    {
+        "id": 221,
+        "string": "I am grateful for the resilience and unity that defines my family.",
+        "category": "Family"
+    },
+    {
+        "id": 222,
+        "string": "Each family member brings their own light, enriching our shared experiences.",
+        "category": "Family"
+    },
+    {
+        "id": 223,
+        "string": "I nurture loving connections within my family, fostering deeper relationships.",
+        "category": "Family"
+    },
+    {
+        "id": 224,
+        "string": "I am a beacon of love and positivity within my family circle.",
+        "category": "Family"
+    },
+    {
+        "id": 225,
+        "string": "My family embraces forgiveness and understanding, strengthening our bond.",
+        "category": "Family"
+    },
+    {
+        "id": 226,
+        "string": "I cherish the laughter and joy that fills our family gatherings.",
+        "category": "Family"
+    },
+    {
+        "id": 227,
+        "string": "My family's support empowers me to overcome any challenge.",
+        "category": "Family"
+    },
+    {
+        "id": 228,
+        "string": "I am grateful for the lessons of compassion and empathy learned from my family.",
+        "category": "Family"
+    },
+    {
+        "id": 229,
+        "string": "Every family member is a cherished treasure, adding richness to our lives.",
+        "category": "Family"
+    },
+    {
+        "id": 230,
+        "string": "I am deeply connected to my family, even in times of distance or change.",
+        "category": "Family"
+    },
+    {
+        "id": 231,
+        "string": "My family's love is unwavering, providing a safe haven in life's storms.",
+        "category": "Family"
+    },
+    {
+        "id": 232,
+        "string": "I celebrate the diversity and individuality within my family unit.",
+        "category": "Family"
+    },
+    {
+        "id": 233,
+        "string": "I radiate love and positivity, uplifting my family members in return.",
+        "category": "Family"
+    },
+    {
+        "id": 234,
+        "string": "My family is a sanctuary of love, acceptance, and understanding.",
+        "category": "Family"
+    },
+    {
+        "id": 235,
+        "string": "I am a source of strength and support for my family, and they are for me.",
+        "category": "Family"
+    },
+    {
+        "id": 236,
+        "string": "My family's love is a constant source of inspiration and strength.",
+        "category": "Family"
+    },
+    {
+        "id": 237,
+        "string": "I am surrounded by family members who encourage and support my growth.",
+        "category": "Family"
+    },
+    {
+        "id": 238,
+        "string": "Each member of my family brings their own special light into our lives.",
+        "category": "Family"
+    },
+    {
+        "id": 239,
+        "string": "I am grateful for the deep connections and bonds shared with my family.",
+        "category": "Family"
+    },
+    {
+        "id": 240,
+        "string": "My family provides a safe and nurturing environment for me to thrive.",
+        "category": "Family"
+    },
+    {
+        "id": 241,
+        "string": "I cherish the moments of laughter and joy shared with my family.",
+        "category": "Family"
+    },
+    {
+        "id": 242,
+        "string": "I am surrounded by family members who believe in my potential and encourage me to pursue my dreams.",
+        "category": "Family"
+    },
+    {
+        "id": 243,
+        "string": "My family is my rock, providing unwavering support and encouragement.",
+        "category": "Family"
+    },
+    {
+        "id": 244,
+        "string": "I am surrounded by family members who lift me up and inspire me to greatness.",
+        "category": "Family"
+    },
+    {
+        "id": 245,
+        "string": "Each member of my family brings their own unique perspective and strengths.",
+        "category": "Family"
+    },
+    {
+        "id": 246,
+        "string": "I am grateful for the bonds of love that tie my family together.",
+        "category": "Family"
+    },
+    {
+        "id": 247,
+        "string": "My family is a source of joy and laughter in my life.",
+        "category": "Family"
+    },
+    {
+        "id": 248,
+        "string": "I am surrounded by family members who believe in my potential and cheer me on.",
+        "category": "Family"
+    },
+    {
+        "id": 249,
+        "string": "My family is a sanctuary of love and acceptance, where I can always be myself.",
+        "category": "Family"
+    },
+    {
+        "id": 250,
+        "string": "I am grateful for the memories created and cherished with my family.",
+        "category": "Family"
+    },
+    {
+        "id": 251,
+        "string": "I am a valuable member of my family, contributing to our collective happiness.",
+        "category": "Family"
+    },
+    {
+        "id": 252,
+        "string": "My family is a source of wisdom and guidance, helping me navigate life's challenges.",
+        "category": "Family"
+    },
+    {
+        "id": 253,
+        "string": "I am surrounded by family members who inspire me to be my best self.",
+        "category": "Family"
+    },
+    {
+        "id": 254,
+        "string": "My family celebrates our differences and embraces our shared values.",
+        "category": "Family"
+    },
+    {
+        "id": 255,
+        "string": "I am grateful for the unconditional love and support I receive from my family.",
+        "category": "Family"
+    },
+    {
+        "id": 256,
+        "string": "My family is my greatest blessing, and I am thankful for them every day.",
+        "category": "Family"
+    },
+    {
+        "id": 257,
+        "string": "I am surrounded by family members who encourage me to follow my dreams.",
+        "category": "Family"
+    },
+    {
+        "id": 258,
+        "string": "My family is a source of strength and resilience, helping me overcome obstacles.",
+        "category": "Family"
+    },
+    {
+        "id": 259,
+        "string": "I am grateful for the laughter and joy that fills our family gatherings.",
+        "category": "Family"
+    },
+    {
+        "id": 260,
+        "string": "My family's love knows no bounds and extends to all members unconditionally.",
+        "category": "Family"
+    },
+    {
+        "id": 261,
+        "string": "I am deeply connected to my family, and our bond only grows stronger with time.",
+        "category": "Family"
+    },
+    {
+        "id": 262,
+        "string": "My family is a constant source of inspiration and motivation in my life.",
+        "category": "Family"
+    },
+    {
+        "id": 263,
+        "string": "I am grateful for the traditions and values passed down through generations in my family.",
+        "category": "Family"
+    },
+    {
+        "id": 264,
+        "string": "I am surrounded by family members who support and uplift each other.",
+        "category": "Family"
+    },
+    {
+        "id": 265,
+        "string": "My family relationships are built on a foundation of trust and mutual respect.",
+        "category": "Family"
+    },
+    {
+        "id": 266,
+        "string": "I am a source of love and positivity within my family, spreading joy to all.",
+        "category": "Family"
+    },
+    {
+        "id": 267,
+        "string": "I am blessed to have a family that loves and supports me unconditionally.",
+        "category": "Family"
+    },
+    {
+        "id": 268,
+        "string": "My family relationships are built on a foundation of love, respect, and mutual understanding.",
+        "category": "Family"
+    },
+    {
+        "id": 269,
+        "string": "I am grateful for the traditions and values passed down through generations in my family.",
+        "category": "Family"
+    },
+    {
+        "id": 270,
+        "string": "I am a source of love and support for my family, and they are for me.",
+        "category": "Family"
+    },
+    {
+        "id": 271,
+        "string": "My family celebrates each other's successes and supports each other through challenges.",
+        "category": "Family"
+    },
+    {
+        "id": 272,
+        "string": "I am grateful for the lessons of resilience and perseverance learned from my family.",
+        "category": "Family"
+    },
+    {
+        "id": 273,
+        "string": "My family is a reflection of the love and kindness that exists in the world.",
+        "category": "Family"
+    },
+    {
+        "id": 274,
+        "string": "I am deeply connected to my family, no matter where life takes us.",
+        "category": "Family"
+    },
+    {
+        "id": 275,
+        "string": "My family members are my greatest teachers, guiding me on my journey of self-discovery.",
+        "category": "Family"
+    },
+    {
+        "id": 276,
+        "string": "I am surrounded by family members who uplift and inspire me to be my best self.",
+        "category": "Family"
+    },
+    {
+        "id": 277,
+        "string": "My family is my home, where I am loved unconditionally and accepted for who I am.",
+        "category": "Family"
+    },
+    {
+        "id": 278,
+        "string": "I am grateful for the memories and experiences shared with my family.",
+        "category": "Family"
+    },
+    {
+        "id": 279,
+        "string": "My family's love is a constant source of comfort and reassurance in my life.",
+        "category": "Family"
+    },
+    {
+        "id": 280,
+        "string": "I am surrounded by family members who support and encourage each other's growth.",
+        "category": "Family"
+    },
+    {
+        "id": 281,
+        "string": "My family relationships are a source of stability and security in my life.",
+        "category": "Family"
+    },
+    {
+        "id": 282,
+        "string": "I am grateful for the laughter and joy that fills our family gatherings.",
+        "category": "Family"
+    },
+    {
+        "id": 283,
+        "string": "My family's love knows no bounds and extends to all members unconditionally.",
+        "category": "Family"
+    },
+    {
+        "id": 284,
+        "string": "I am a valuable member of my family, contributing to our collective happiness and well-being.",
+        "category": "Family"
+    },
+    {
+        "id": 285,
+        "string": "I am blessed to have a family that loves and supports me through thick and thin.",
+        "category": "Family"
     }
 ]
 
