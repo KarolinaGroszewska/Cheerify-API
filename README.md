@@ -57,7 +57,7 @@ Return a random custom affirmationfor the given user ID.
 The API responses are returned in JSON format, with the following structure:
 ```json
 {
-  "category": "{category_name}", "id": number, "string": "{affirmation}"
+  "category": "{category_name}", "id": "{number}", "string": "{affirmation}"
 }
 ```
 
