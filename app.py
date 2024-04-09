@@ -1,88 +1,101 @@
 from flask import Flask, jsonify
 import random 
 from affirmations import affirmations
+from mock_users import users 
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/', methods=['GET'])
 def generate_random_affirmation():
     affirmation = random.choice(affirmations)
     return jsonify(affirmation)
 
-@app.route('/acceptance')
+@app.route('/acceptance', methods=['GET'])
 def generate_random_acceptance_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Acceptance' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/love')
+@app.route('/love', methods=['GET'])
 def generate_random_love_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Love' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/success')
+@app.route('/success', methods=['GET'])
 def generate_random_success_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Success' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/happiness')
+@app.route('/happiness', methods=['GET'])
 def generate_random_happiness_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Happiness' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/health')
+@app.route('/health', methods=['GET'])
 def generate_random_health_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Health' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/wealth')
+@app.route('/wealth', methods=['GET'])
 def generate_random_wealth_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Wealth' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/gratitude')
+@app.route('/gratitude', methods=['GET'])
 def generate_random_gratitude_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Gratitude' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/self-love')
+@app.route('/self-love', methods=['GET'])
 def generate_random_self_love_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Self-love' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/friendship')
+@app.route('/friendship', methods=['GET'])
 def generate_random_friendship_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Friendship' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/family')
+@app.route('/family', methods=['GET'])
 def generate_random_family_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Family' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/work')
+@app.route('/work', methods=['GET'])
 def generate_random_work_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Work' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/success')
+@app.route('/success', methods=['GET'])
 def generate_random_success_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'Success' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/school')
+@app.route('/school', methods=['GET'])
 def generate_random_school_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'School' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
+
+
+@app.route('/users', methods=['GET'])
+def get_users():
+    return jsonify(users)
+
+@app.route('/users/<int:id>', methods=['GET'])
+def get_user_by_id(id: int):
+    user = get_users(id)
+    if user is None:
+        return jsonify({ 'error': 'User does not exist'}), 404
+    return jsonify(user)
