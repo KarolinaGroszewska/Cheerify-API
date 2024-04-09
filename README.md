@@ -7,7 +7,7 @@ Welcome to the Cheerify API documentation! This API allows you to integrate posi
   - [1. Get Random Message](#1-get-message)
   - [2. Get Random Message by Category](#2-get-message-by-category)
   - [3. Get Random Favorite Message for User Category](#3-get-favorite-by-UserID)
-  - [4. Get Random Custom Message for User Category](#3-get-custom-by-UserID)
+  - [4. Get Random Custom Message for User Category](#4-get-custom-by-UserID)
 - [Response Formats](#response-formats)
 - [Contributing](#contributing)
   
@@ -57,7 +57,7 @@ Return a random custom affirmationfor the given user ID.
 The API responses are returned in JSON format, with the following structure:
 ```json
 {
-  "category": "{category_name}", "id": {number}, "string": "{affirmation}"
+  "category": "{category_name}", "id": number, "string": "{affirmation}"
 }
 ```
 
