@@ -97,14 +97,19 @@ def get_random_favorite_from_user_by_id(id: int):
     user = get_users(id)
     if user is None:
         return jsonify({ 'error': 'User does not exist'}), 404
-    favorite = random.choice(user['favorites'])
-    affirmation = [affirmation for affirmation in affirmations if affirmation['id'] == favorite]
-    return jsonify(affirmation)
+    if len(user['favorites']) == 0:
+        return jsonify({ 'error': 'User does not have favorite affirmations'}), 404
+    favorite_num = random.choice(user['favorites'])
+    favorite = [affirmation for affirmation in affirmations if affirmation['id'] == favorite_num][0]
+    return jsonify(favorite)
 
 @app.route('/users/<int:id>/custom', methods=['GET'])
 def get__random_custom_affirmations_from_user_by_id(id: int):
     user = get_users(id)
     if user is None:
         return jsonify({ 'error': 'User does not exist'}), 404
+    if len(user['custom']) == 0:
+        return jsonify({ 'error': 'User does not have custom affirmations'}), 404
     custom = random.choice(user['custom'])
+    print(custom)
     return jsonify(custom)
