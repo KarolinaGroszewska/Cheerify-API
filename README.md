@@ -1,6 +1,8 @@
 # Cheerify API
 Welcome to the Cheerify API documentation! This API allows you to integrate positive affirmations into your applications. Spread joy and positivity effortlessly with Cheerify!
 
+Built with Flask, hosted on PythonAnywhere.
+
 ## Table of Contents
 - [Getting Started](#getting-started)
 - [Endpoints](#endpoints)
