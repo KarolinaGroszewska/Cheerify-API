@@ -43,7 +43,20 @@ Returns an affirmation from the specified category. The current categories in Ch
 - Wealth
 - Happiness
 - Success
+- 
+### 3. Get Favorite by UserID
 
+```
+GET /users/{user_id}/favorite
+```
+Return a random affirmation marked as a favorite for the given user ID.
+
+### 3. Get Custom by UserID
+
+```
+GET /users/{user_id}/custom
+```
+Return a random custom affirmationfor the given user ID.
 
 ## Response Formats
 
