@@ -86,9 +86,29 @@ def generate_random_school_affirmation():
 def get_users():
     return jsonify(users)
 
+def get_users(id):
+ return next((u for u in users if u['id'] == id), None)
+
 @app.route('/users/<int:id>', methods=['GET'])
 def get_user_by_id(id: int):
     user = get_users(id)
     if user is None:
         return jsonify({ 'error': 'User does not exist'}), 404
     return jsonify(user)
+
+@app.route('/users/<int:id>/favorite', methods=['GET'])
+def get_random_favorite_from_user_by_id(id: int):
+    user = get_users(id)
+    if user is None:
+        return jsonify({ 'error': 'User does not exist'}), 404
+    favorite = random.choice(user['favorites'])
+    affirmation = [affirmation for affirmation in affirmations if affirmation['id'] == favorite]
+    return jsonify(affirmation)
+
+@app.route('/users/<int:id>/custom', methods=['GET'])
+def get__random_custom_affirmations_from_user_by_id(id: int):
+    user = get_users(id)
+    if user is None:
+        return jsonify({ 'error': 'User does not exist'}), 404
+    custom = random.choice(user['custom'])
+    return jsonify(custom)
