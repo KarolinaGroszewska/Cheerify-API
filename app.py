@@ -82,10 +82,6 @@ def generate_random_school_affirmation():
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/users', methods=['GET'])
-def get_users():
-    return jsonify(users)
-
 def get_users(id):
  return next((u for u in users if u['id'] == id), None)
 
