@@ -76,18 +76,11 @@ def generate_random_work_affirmation():
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
 
-@app.route('/success', methods=['GET'])
-def generate_random_success_affirmation():
-    love_affirmations = [affirmation for affirmation in affirmations if 'Success' in affirmation['category']]
-    affirmation = random.choice(love_affirmations)
-    return jsonify(affirmation)
-
 @app.route('/school', methods=['GET'])
 def generate_random_school_affirmation():
     love_affirmations = [affirmation for affirmation in affirmations if 'School' in affirmation['category']]
     affirmation = random.choice(love_affirmations)
     return jsonify(affirmation)
-
 
 @app.route('/users', methods=['GET'])
 def get_users():
