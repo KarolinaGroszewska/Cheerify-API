@@ -63,6 +63,6 @@ The API responses are returned in JSON format, with the following structure:
 }
 ```
 Here is a sample work-in-progress architecture for the API and its connections to the Cheerify Client and DB.
-![architecture drawing](https://excalidraw.com/#json=vICzvIXj4joSqephWE0nb,6OQCsYzWwORUXAibpZAgDA)
+![architecture drawing](https://raw.githubusercontent.com/KarolinaGroszewska/Cheerify-API/main/Screenshot%202024-04-09%20at%207.47.39%20PM.png)
 ## Contributing
 We welcome contributions from the community! If you have any ideas for improvements or would like to report a bug, please submit an issue or a pull request on our GitHub repository.
