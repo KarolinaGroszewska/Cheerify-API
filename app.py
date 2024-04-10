@@ -114,38 +114,3 @@ def get__random_custom_affirmations_from_user_by_id(id: int):
     custom = random.choice(user['custom'])
     print(custom)
     return jsonify(custom)
-
-
-
-# @app.route('/users/new', methods=['POST'])
-# def create_user():
-#     user = request.json
-#     if 'name' not in user:
-#         return jsonify({ 'error': 'Name is required'}), 400
-#     user['id'] = next_id
-#     user['favorites'] = []
-#     user['custom'] = []
-#     users.append(user)
-#     user = {
-#         'id': next_id,
-#         'name': "",
-#         'favorites': [],
-#         'custom': []
-#     }
-#     next_id += 1000
-#     return jsonify({ 'message': 'User created successfully'}), 201
-
-
-# def create_user(name: str):
-#     newUser['name'] = name
-#     users.append(newUser)
-#     next_id += 1000
-#     newUser = {
-#         'id': next_id,
-#         'name': name,
-#         'favorites': [],
-#         'custom': []
-#     }
-#     dictToSend = newUser
-#     res = requests.post('/users/new', json=dictToSend)
-#     return jsonify({ 'message': 'User created successfully'}), 201
