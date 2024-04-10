@@ -62,6 +62,7 @@ The API responses are returned in JSON format, with the following structure:
   "category": "{category_name}", "id": "{number}", "string": "{affirmation}"
 }
 ```
-
+Here is a sample work-in-progress architecture for the API and its connections to the Cheerify Client and DB.
+![architecture drawing](https://excalidraw.com/#json=vICzvIXj4joSqephWE0nb,6OQCsYzWwORUXAibpZAgDA)
 ## Contributing
 We welcome contributions from the community! If you have any ideas for improvements or would like to report a bug, please submit an issue or a pull request on our GitHub repository.
