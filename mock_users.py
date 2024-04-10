@@ -12,3 +12,13 @@ users = [
      [
      ]}
 ]
+
+
+# next_id = 4000
+# name = ""
+# newUser = {
+#     'id': next_id,
+#     'name': name,
+#     'favorites': [],
+#     'custom': []
+# }
